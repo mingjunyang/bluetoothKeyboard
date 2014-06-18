@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# USB_plug
+#
+DEF USB_plug P 0 40 Y Y 1 F N
+F0 "P" -200 -200 60 H V C CNN
+F1 "USB_plug" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -250 150 250 -150 0 1 0 N
+X Shield 0 -250 0 300 L 50 50 1 1 P
+X Shield 0 250 0 300 R 50 50 1 1 P
+X VBUS 1 -150 150 300 U 50 50 1 1 w
+X D+ 2 -50 150 300 U 50 50 1 1 B
+X D- 3 50 150 300 U 50 50 1 1 B
+X GND 4 150 150 300 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
