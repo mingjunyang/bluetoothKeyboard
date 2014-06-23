@@ -1,0 +1,5 @@
+CC254xPM.pcblib
+	ad6.9格式的pcb封装库
+
+CC254xPM.schlib
+	ad6.9格式的元件库
